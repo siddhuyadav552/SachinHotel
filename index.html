@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sachin | Hotel & Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./fav.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/html/delicious-indian-chana-masala-with-puri-Photoroom.png" type="image/x-icon">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+  </style>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=call" />
+</head>
+
+<body>
+  <main>
+    <header class="flex">
+      <div class="part1 flex">
+        <img src="./Siddhartha.png" alt="#" style="height: 4rem; opacity: 1;">
+        <div class="logo-name flex">
+          <h2 style="color: rgba(200, 155, 95); font-family: 'Sansation', sans-serif; font-size: 3rem;">Sachin</h2>
+          <span>Hotel & Restaurant</span>
+        </div>
+      </div>
+      <div class="part2 flex">
+        <nav class="flex">
+          <ul class="flex">
+            <li><a href="#">✦ Home</a></li>
+            <li><a href="#menu">✦ Menu</a></li>
+            <li><a href="#pages">✦ Pages</a></li>
+            <li><a href="#contact">✦ Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="part3 flex" style="gap:1rem;">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+        <a href="#contact"><button>BOOK A TABLE</button></a>
+      </div>
+    </header>
+
+    <div class="page-1 flex">
+      <div class="pg1-panel flex">
+        <h3>Welcome To</h3>
+        <h2 class="flex" style="flex-direction: column; gap: 2vh; top: 3vh;">
+          <span>Sachin </span> Hotel and Restaurant
+        </h2>
+        <div class="p1-buttons flex">
+          <a href="#"><button>BOOK A TABLE</button></a>
+          <a href="#"><button >SEE OUR MENU</button></a>
+        </div>
+      </div>
+      <div class="pg1-img">
+        <img class="my-image" src="./delicious-indian-chana-masala-with-puri-Photoroom.png" alt="">
+      </div>
+      <div class="pg2-bgimg">
+        <img src="./tomato.png" alt="">
+      </div>
+    </div>
+
+    <div  id="pages"  class="page2 flex">
+      <div class="pg2-part1 flex">
+        <img src="./pizza.png" alt="">
+      </div>
+      <div class="pg2-part2 flex" style="flex-direction: column;">
+        <div class="pg2-pt2-pt1 flex">
+          <h3>Welcome To Restaurant</h3>
+          <p>At Sachin Hotel & Restaurant, we serve authentic North Indian flavors with a modern twist. From
+            fluffy chole bhature to royal biryanis and wood-fired pizzas, every dish is crafted with fresh
+            ingredients and traditional recipes passed down for generations. Dine in luxury or order online
+            — we promise a meal you’ll remember.</p>
+        </div>
+        <div class="pg2-pt2-pt2 flex">
+          <div class="grid spcgrid">
+            <div class="grid-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px">
+                <path
+                  d="M120-640v-200h280v200H120Zm80-80h120v-40H200v40Zm-5 485q-35-35-35-85H80v-120q0-66 47-113t113-47h160v200h140l140-174v-106H560v-80h120q33 0 56.5 23.5T760-680v134L580-320H400q0 50-35 85t-85 35q-50 0-85-35Zm113.5-56.5Q320-303 320-320h-80q0 17 11.5 28.5T280-280q17 0 28.5-11.5ZM675-235q-35-35-35-85t35-85q35-35 85-35t85 35q35 35 35 85t-35 85q-35 35-85 35t-85-35Zm113.5-56.5Q800-303 800-320t-11.5-28.5Q777-360 760-360t-28.5 11.5Q720-337 720-320t11.5 28.5Q743-280 760-280t28.5-11.5ZM160-400h160v-120h-80q-33 0-56.5 23.5T160-440v40Zm160-320v-40 40Zm0 320Z" />
+              </svg>
+            </div>
+            <div class="grid-data">
+              <h3>Free Delivery</h3>
+              <span>During 45 MIN</span>
+              <div class="grid-data-line"></div>
+              <p>Enjoy piping hot meals delivered to your doorstep within 45 minutes. Free delivery on all orders above
+                ₹999.</p>
+            </div>
+          </div>
+          <div class="grid spcgrid">
+            <div class="grid-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px">
+                <path
+                  d="M120-640v-200h280v200H120Zm80-80h120v-40H200v40Zm-5 485q-35-35-35-85H80v-120q0-66 47-113t113-47h160v200h140l140-174v-106H560v-80h120q33 0 56.5 23.5T760-680v134L580-320H400q0 50-35 85t-85 35q-50 0-85-35Zm113.5-56.5Q320-303 320-320h-80q0 17 11.5 28.5T280-280q17 0 28.5-11.5ZM675-235q-35-35-35-85t35-85q35-35 85-35t85 35q35 35 35 85t-35 85q-35 35-85 35t-85-35Zm113.5-56.5Q800-303 800-320t-11.5-28.5Q777-360 760-360t-28.5 11.5Q720-337 720-320t11.5 28.5Q743-280 760-280t28.5-11.5ZM160-400h160v-120h-80q-33 0-56.5 23.5T160-440v40Zm160-320v-40 40Zm0 320Z" />
+              </svg>
+            </div>
+            <div class="grid-data">
+              <h3>Fresh Ingredients</h3>
+              <span>Sourced Daily</span>
+              <div class="grid-data-line"></div>
+              <p>We source vegetables daily from local farms and use 100% pure spices. No frozen food, no compromises —
+                only freshness.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="grid-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px">
+                <path
+                  d="M120-640v-200h280v200H120Zm80-80h120v-40H200v40Zm-5 485q-35-35-35-85H80v-120q0-66 47-113t113-47h160v200h140l140-174v-106H560v-80h120q33 0 56.5 23.5T760-680v134L580-320H400q0 50-35 85t-85 35q-50 0-85-35Zm113.5-56.5Q320-303 320-320h-80q0 17 11.5 28.5T280-280q17 0 28.5-11.5ZM675-235q-35-35-35-85t35-85q35-35 85-35t85 35q35 35 35 85t-35 85q-35 35-85 35t-85-35Zm113.5-56.5Q800-303 800-320t-11.5-28.5Q777-360 760-360t-28.5 11.5Q720-337 720-320t11.5 28.5Q743-280 760-280t28.5-11.5ZM160-400h160v-120h-80q-33 0-56.5 23.5T160-440v40Zm160-320v-40 40Zm0 320Z" />
+              </svg>
+            </div>
+            <div class="grid-data">
+              <h3>Fine Dining Ambiance</h3>
+              <span>Luxury Experience</span>
+              <div class="grid-data-line"></div>
+              <p>Experience luxury dining with elegant interiors, private family sections, and courteous staff ready to
+                serve you.</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="grid-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px">
+                <path
+                  d="M120-640v-200h280v200H120Zm80-80h120v-40H200v40Zm-5 485q-35-35-35-85H80v-120q0-66 47-113t113-47h160v200h140l140-174v-106H560v-80h120q33 0 56.5 23.5T760-680v134L580-320H400q0 50-35 85t-85 35q-50 0-85-35Zm113.5-56.5Q320-303 320-320h-80q0 17 11.5 28.5T280-280q17 0 28.5-11.5ZM675-235q-35-35-35-85t35-85q35-35 85-35t85 35q35 35 35 85t-35 85q-35 35-85 35t-85-35Zm113.5-56.5Q800-303 800-320t-11.5-28.5Q777-360 760-360t-28.5 11.5Q720-337 720-320t11.5 28.5Q743-280 760-280t28.5-11.5ZM160-400h160v-120h-80q-33 0-56.5 23.5T160-440v40Zm160-320v-40 40Zm0 320Z" />
+              </svg>
+            </div>
+            <div class="grid-data">
+              <h3>Online Booking</h3>
+              <span>Rapid Confirmation</span>
+              <div class="grid-data-line"></div>
+              <p>Skip the wait. Reserve your table instantly through our website or call us at +91-98765-43210 for
+                instant confirmation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pg2-part3 flex">
+        <img src="./biryannitable.png" alt="">
+      </div>
+    </div>
+
+    <div class="page3 flex">
+      <div class="page3-main-container">
+        <div class="bgcGrapes">
+          <img src="./pg3-cnt-bgc.png" alt="">
+        </div>
+        <div class="p3mc-heading">
+          <h2>Our <span>Popular Dishes</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, labore! Modi vero est magni consequatur.</p>
+        </div>
+        <div class="p3mc-items-grid flex">
+          <div class="item-card1 flex">
+            <div class="ic1-1 itemcard flex">
+              <img id="burger" src="./burger.png" alt="">
+              <div class="itemcard-data flex">
+                <h3>CHEESE BURGER</h3>
+                <div class="grid-data-line"></div>
+                <p>Juicy chicken patty topped with melted cheddar, fresh lettuce, tomato, and our secret Captain sauce,
+                  served in a toasted sesame bun. </p>
+                <h3>Rs.150</h3>
+              </div>
+            </div>
+            <div class="ic1-2 itemcard flex">
+              <img id="paneer_roll" src="./paneer_roll.png" alt="">
+              <div class="itemcard-data flex">
+                <h3>PANEER ROLL</h3>
+                <div class="grid-data-line"></div>
+                <p>Cubes of soft paneer tossed in spicy Indo-Chinese gravy with capsicum, onion, and garlic. A perfect
+                  starter with a kick.</p>
+                <h3>Rs.150</h3>
+              </div>
+            </div>
+          </div>
+          <div class="item-card2 flex">
+            <div class="ic2-1 itemcard flex">
+              <img id="chilli" src="./chilli.png" alt="">
+              <div class="itemcard-data flex">
+                <h3>CHILLI PANEER TIKKA</h3>
+                <div class="grid-data-line"></div>
+                <p>Spiced paneer tikka, sautéed onions, and mint chutney wrapped in a flaky laccha paratha. Hearty,
+                  flavorful, and on-the-go.</p>
+                <h3>Rs.150</h3>
+              </div>
+            </div>
+            <div class="ic2-2 itemcard flex">
+              <img id="sandwich" src="./sandwich.png" alt="">
+              <div class="itemcard-data flex">
+                <h3>CHEESE SANDWICH</h3>
+                <div class="grid-data-line"></div>
+                <p>Triple-layer grilled sandwich loaded with mozzarella, veggies, and herbs. Toasted to golden
+                  perfection.</p>
+                <h3>Rs.150</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    <div id="menu" class="page4">
+      <input type="radio" name="filter" id="f-all" checked>
+      <input type="radio" name="filter" id="f-soup">
+      <input type="radio" name="filter" id="f-fried">
+      <input type="radio" name="filter" id="f-starters">
+      <input type="radio" name="filter" id="f-chinese">
+      <input type="radio" name="filter" id="f-sizzler">
+      <input type="radio" name="filter" id="f-chaat">
+      <input type="radio" name="filter" id="f-main">
+      <input type="radio" name="filter" id="f-breads">
+
+      <main class="menu-area">
+        <aside class="tabs">
+          <h3>Our Menu</h3>
+          <label class="tab-label" for="f-all">All Items <span class="count">67</span></label>
+          <label class="tab-label" for="f-soup">Soup <span class="count">4</span></label>
+          <label class="tab-label" for="f-fried">Fried Snacks <span class="count">4</span></label>
+          <label class="tab-label" for="f-starters">Starters <span class="count">10</span></label>
+          <label class="tab-label" for="f-chinese">Chinese <span class="count">15</span></label>
+          <label class="tab-label" for="f-sizzler">Sizzler <span class="count">2</span></label>
+          <label class="tab-label" for="f-chaat">Chaat <span class="count">11</span></label>
+          <label class="tab-label" for="f-main">Main Course <span class="count">20</span></label>
+          <label class="tab-label" for="f-breads">Breads <span class="count">13</span></label>
+        </aside>
+
+        <section class="content">
+          <div class="menu-intro">
+            <h2>OUR <em>MENU</em></h2>
+          </div>
+          <!-- SOUP -->
+          <div class="category soup">
+            <div class="category-head">
+              <h3>Soup</h3>
+              <div class="line"></div>
+            </div>
+            <div class="dish-list">
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Cream of Tomato</div>
+                <div class="dish-price">120</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Sweet Corn Soup</div>
+                <div class="dish-price">120</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Manchow Soup</div>
+                <div class="dish-price">135</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Hot & Sour Soup</div>
+                <div class="dish-price">135</div>
+              </div>
+            </div>
+          </div>
+          <!-- FRIED SNACKS -->
+          <div class="category fried">
+            <div class="category-head">
+              <h3>Fried Snacks</h3>
+              <div class="line"></div>
+            </div>
+            <div class="dish-list">
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>French Fries</div>
+                <div class="dish-price">90</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Dahi ke Shole</div>
+                <div class="dish-price">200</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Peri Peri Fries</div>
+                <div class="dish-price">120</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Paneer Pakoda</div>
+                <div class="dish-price">160</div>
+              </div>
+            </div>
+          </div>
+          <!-- STARTERS -->
+          <div class="category starters">
+            <div class="category-head">
+              <h3>Starters</h3>
+              <div class="line"></div>
+            </div>
+            <div class="dish-list">
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Tandoori Aloo</div>
+                <div class="dish-price">200</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Malai Chap</div>
+                <div class="dish-price">225</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Tandoori Masala Chap</div>
+                <div class="dish-price">230</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Podina Chap</div>
+                <div class="dish-price">230</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Achari Chap</div>
+                <div class="dish-price">225</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Afgani Chap</div>
+                <div class="dish-price">240</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Tandoori Mushroom</div>
+                <div class="dish-price">240</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Paneer Tikka</div>
+                <div class="dish-price">240</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Hara Bhara Kabab</div>
+                <div class="dish-price">240</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Tandoori Platter</div>
+                <div class="dish-price">290</div>
+              </div>
+            </div>
+          </div>
+          <!-- CHINESE -->
+          <div class="category chinese">
+            <div class="category-head">
+              <h3>Chinese</h3>
+              <div class="line"></div>
+            </div>
+            <div class="dish-list">
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Honey Chilli Potato</div>
+                <div class="dish-price">160</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Spring Roll</div>
+                <div class="dish-price">150</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Veg Chowmein</div>
+                <div class="dish-price">130</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Hakka Noodles</div>
+                <div class="dish-price">170</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Chilli Paneer Dry</div>
+                <div class="dish-price">230</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Chilli Paneer Gravy</div>
+                <div class="dish-price">220</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Chilli Mushroom</div>
+                <div class="dish-price">220</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Veg Salt & Pepper</div>
+                <div class="dish-price">215</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Manchurian Dry</div>
+                <div class="dish-price">215</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Manchurian Gravy</div>
+                <div class="dish-price">235</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Paneer 65</div>
+                <div class="dish-price">140</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Crispy Corn</div>
+                <div class="dish-price">140</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Veg Paneer Momos <small>(Fried/Steam)</small></div>
+                <div class="dish-price">165</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Tandoori Momos</div>
+                <div class="dish-price">180</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Fried Rice</div>
+                <div class="dish-price">140</div>
+              </div>
+            </div>
+          </div>
+          <!-- SIZZLER -->
+          <div class="category sizzler">
+            <div class="category-head">
+              <h3>Sizzler</h3>
+              <div class="line"></div>
+            </div>
+            <div class="dish-list">
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Chinese Sizzler Platter <small>Spring Roll, Manchurian,
+                    Chilli Paneer, Noodles</small></div>
+                <div class="dish-price">315</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Tandoori Sizzler Platter <small>Tikka, Kabab, Chap,
+                    Aloo</small></div>
+                <div class="dish-price">315</div>
+              </div>
+            </div>
+          </div>
+          <!-- CHAAT -->
+          <div class="category chaat">
+            <div class="category-head">
+              <h3>Chaat</h3>
+              <div class="line"></div>
+            </div>
+            <div class="dish-list">
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Chole Bhature</div>
+                <div class="dish-price">120</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Dahi Bhalla</div>
+                <div class="dish-price">70</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Papdi Chaat</div>
+                <div class="dish-price">70</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Aloo Tikki</div>
+                <div class="dish-price">70</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Aloo Chaat</div>
+                <div class="dish-price">70</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Pav Bhaji</div>
+                <div class="dish-price">90</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Raj Kachori</div>
+                <div class="dish-price">90</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Bhelpuri</div>
+                <div class="dish-price">60</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Matra Kulcha</div>
+                <div class="dish-price">90</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Samosa <small>(2 Pc.)</small></div>
+                <div class="dish-price">40</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Khasta Kachori <small>with Aloo Sabji 2 Pc.</small>
+                </div>
+                <div class="dish-price">70</div>
+              </div>
+            </div>
+          </div>
+          <!-- MAIN COURSE -->
+          <div class="category main">
+            <div class="category-head">
+              <h3>Main Course</h3>
+              <div class="line"></div>
+            </div>
+            <div class="dish-list">
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Dal Makhani</div>
+                <div class="dish-price">235</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Dal Tadka</div>
+                <div class="dish-price">170</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Shahi Paneer</div>
+                <div class="dish-price">250</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Kadhai Paneer</div>
+                <div class="dish-price">250</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Paneer Butter Masala</div>
+                <div class="dish-price">260</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Paneer Lababdar</div>
+                <div class="dish-price">260</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Paneer Tikka Masala</div>
+                <div class="dish-price">250</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Paneer Dhaniya Adraki</div>
+                <div class="dish-price">250</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Matar Paneer</div>
+                <div class="dish-price">230</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Paneer Bhurji</div>
+                <div class="dish-price">250</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Dum Aloo</div>
+                <div class="dish-price">210</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Kashmiri Dum Aloo</div>
+                <div class="dish-price">230</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Jeera Aloo</div>
+                <div class="dish-price">190</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Matar Mushroom</div>
+                <div class="dish-price">230</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Shahi Chap</div>
+                <div class="dish-price">250</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Kadhai Chap</div>
+                <div class="dish-price">250</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Handi Chap</div>
+                <div class="dish-price">270</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Malai Kofta</div>
+                <div class="dish-price">250</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Mix Veg</div>
+                <div class="dish-price">215</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Kaju Korma</div>
+                <div class="dish-price">270</div>
+              </div>
+            </div>
+          </div>
+          <!-- BREADS -->
+          <div class="category breads">
+            <div class="category-head">
+              <h3>Breads</h3>
+              <div class="line"></div>
+            </div>
+            <div class="dish-list">
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Tandoori Roti</div>
+                <div class="dish-price">20</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Butter Roti</div>
+                <div class="dish-price">25</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Plain Naan</div>
+                <div class="dish-price">45</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Butter Naan</div>
+                <div class="dish-price">55</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Stuffed Naan</div>
+                <div class="dish-price">70</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Chur Chur Naan</div>
+                <div class="dish-price">70</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Garlic Naan</div>
+                <div class="dish-price">70</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Lachha Paratha</div>
+                <div class="dish-price">60</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Podina Paratha</div>
+                <div class="dish-price">75</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Stuffed Paratha</div>
+                <div class="dish-price">75</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Missi Roti</div>
+                <div class="dish-price">40</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Onion Missi</div>
+                <div class="dish-price">50</div>
+              </div>
+              <div class="dish">
+                <div class="dish-name"><span class="dot"></span>Amritsari Kulcha</div>
+                <div class="dish-price">90</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="page6">
+      <main class="book-area">
+        <!-- LEFT INFO -->
+        <aside class="book-info">
+          <span class="eyebrow">Reservation</span>
+          <h1>Book <em>A Table</em></h1>
+          <p class="sub">Reserve your table at Captain Hotel & Restaurant. For parties larger than 8, please call us
+            directly.</p>
+
+          <div class="info-cards">
+            <div class="info-card">
+              <div class="icon">◷</div>
+              <div>
+                <h4>Opening Hours</h4>
+                <p>Mon - Sun : 11:00 AM - 11:00 PM<br>Chaat Counter : 10:00 AM - 10:00 PM</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="icon">◎</div>
+              <div>
+                <h4>Visit Us</h4>
+                <p>Sachin Hotel & Restaurant<br>GT Rd, near R.K Educational school<br>Sikandrabad,Bulandshahr, UP, 203205</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="icon">✦</div>
+              <div>
+                <h4>Quick Contact</h4>
+                <p>+91 987654321<br>sachinhotel@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <!-- RIGHT FORM -->
+        <section id="contact" class="book-form-wrap">
+          <form class="book-form" action="#" method="post">
+            <div class="form-grid">
+              <div class="field">
+                <label>Full Name *</label>
+                <input type="text" placeholder="Sachin Sharma" required>
+              </div>
+              <div class="field">
+                <label>Phone Number *</label>
+                <input type="tel" placeholder="+91 98XXXXXXXX" pattern="[0-9+ ]{10,15}" required>
+              </div>
+              <div class="field">
+                <label>Email Address</label>
+                <input type="email" placeholder="you@example.com">
+              </div>
+              <div class="field">
+                <label>No. of Guests *</label>
+                <select required>
+                  <option value="" disabled selected>Select Guests</option>
+                  <option>1 Person</option>
+                  <option>2 People</option>
+                  <option>3 People</option>
+                  <option>4 People</option>
+                  <option>5-6 People</option>
+                  <option>7-8 People</option>
+                  <option>8+ People (Call Us)</option>
+                </select>
+              </div>
+              <div class="field">
+                <label>Date *</label>
+                <input type="date" required>
+              </div>
+              <div class="field">
+                <label>Time *</label>
+                <input type="time" required>
+              </div>
+              <div class="field full">
+                <label>Occasion</label>
+                <div class="chips">
+                  <label class="chip"><input type="radio" name="occasion" checked><span>Birthday</span></label>
+                  <label class="chip"><input type="radio" name="occasion"><span>Anniversary</span></label>
+                  <label class="chip"><input type="radio" name="occasion"><span>Business</span></label>
+                  <label class="chip"><input type="radio" name="occasion"><span>Casual Dining</span></label>
+                </div>
+              </div>
+              <div class="field full">
+                <label>Special Request</label>
+                <textarea rows="3" placeholder="Write your request here."></textarea>
+              </div>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn-gold">RESERVE </button>
+              <p class="note">* You will receive confirmation on phone.</p>
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="footer-col brand">
+          <div class="footer-logo">
+            <span class="logo-mark">◉</span>
+            <div>
+              <h3>Sachin</h3>
+              <small>Hotel & Restaurant</small>
+            </div>
+          </div>
+          <p class="brand-text">Authentic taste, warm hospitality. Pure veg delights from Chaat to Main Course, served
+            with love at the heart of the city.</p>
+          <div class="social">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Google">G</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Menu</a></li>
+            <li><a href="#">About Story</a></li>
+            <li><a href="#">Book A Table</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Our Menu</h4>
+          <ul>
+            <li><a href="#">Starters & Snacks</a></li>
+            <li><a href="#">Chinese Platters</a></li>
+            <li><a href="#">Chaat Specials</a></li>
+            <li><a href="#">Main Course</a></li>
+            <li><a href="#">Breads & Sizzlers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col contact">
+          <h4>Contact Us</h4>
+          <div class="contact-item">
+            <span class="ci-icon">◎</span>
+            <p>GT Rd, near RK Educational school, Sikandrabad, Uttar Pradesh 203205</p>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">◷</span>
+            <p>Daily: 11:00 AM - 11:00 PM<br>Chaat: 10:00 AM - 10:00 PM</p>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">✦</span>
+            <p>+91 98765 43210<br>hello@sachinhotel.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Sachin Hotel & Restaurant. All Rights Reserved.</p>
+        <p class="made"><span>Developed with  ♥ by Siddhartha  Pure Veg • Made in India</span></p>
+      </div>
+    </footer>
+  </main>
+
+<script>
+  const htmlEl = document.documentElement;
+  const toggleBtn = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('sachin-theme') || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+  setTheme(savedTheme);
+  function setTheme(theme) {
+    htmlEl.setAttribute('data-theme', theme);
+    localStorage.setItem('sachin-theme', theme);
+    toggleBtn.textContent = theme === 'dark' ? '☀️' : '🌙';
+  }
+  toggleBtn.addEventListener('click', () => {
+    const current = htmlEl.getAttribute('data-theme');
+    setTheme(current === 'dark' ? 'light' : 'dark');
+  });
+</script>
+
+</body>
+
+</html>
+
+
